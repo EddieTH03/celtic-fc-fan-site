@@ -1,0 +1,142 @@
+/* Reset default browser styles for consistency across browsers */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: 'Open Sans', sans-serif; /* Body text font */
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333; /* Dark gray text color */
+    padding: 20px;
+    max-width: 1200px; /* Maximum width for content */
+    margin: 0 auto; /* Center content */
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    background-color: #006644; /* Celtic FC green */
+    color: white; /* White text color */
+    padding: 20px 0;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif; /* Applying Montserrat for bold headings */
+    font-weight: 700; /* Make the header bold */
+}
+
+/* Navigation Menu Styles */
+nav ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block; /* Horizontal list items */
+    margin: 0 10px; /* Spacing between menu items */
+}
+
+nav ul li a {
+    color: white; /* White text for links */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: 600; /* Make navigation links bold */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+/* Section Styling */
+section {
+    margin: 40px 0; /* Add space between sections */
+}
+
+/* Heading Styles */
+h2 {
+    margin-bottom: 10px;
+    color: #006644; /* Celtic FC green */
+    font-family: 'Montserrat', sans-serif; /* Applying Montserrat for section headings */
+    font-weight: 600; /* Make section headings bold */
+}
+
+/* Table Styles */
+table {
+    width: 100%; /* Full-width table */
+    border-collapse: collapse; /* Remove extra spacing between cells */
+    margin: 20px 0; /* Add margin above and below the table */
+}
+
+table, th, td {
+    border: 1px solid #ddd; /* Light gray border for cells */
+}
+
+th, td {
+    padding: 12px; /* Padding inside table cells */
+    text-align: center; /* Center the text */
+}
+
+th {
+    background-color: #006644; /* Celtic FC green for table headers */
+    color: white; /* White text for table headers */
+}
+
+/* Form Styles */
+form {
+    background-color: white; /* White background for form */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Softer box shadow */
+    max-width: 600px; /* Limit form width */
+    margin: 0 auto; /* Center the form on the page */
+}
+
+form label {
+    display: block; /* Make label appear above input */
+    margin: 10px 0 5px; /* Space between label and input */
+    font-weight: 600; /* Bold labels for accessibility */
+}
+
+form input, form textarea {
+    width: 100%; /* Full width inputs */
+    padding: 10px;
+    margin-bottom: 15px; /* Space below inputs */
+    border: 1px solid #ccc; /* Light gray border for inputs */
+    border-radius: 5px; /* Rounded input corners */
+    font-family: 'Open Sans', sans-serif; /* Consistent font with the body */
+}
+
+form input:focus, form textarea:focus {
+    border-color: #006644;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 102, 68, 0.3);
+}
+
+/* Style for links inside the #links section */
+#links a {
+    color: #006644; /* Celtic FC green */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: 600; /* Optional: Make links bold */
+}
+
+/* Style for links when hovered over */
+#links a:hover {
+    color: #004d33; /* Darker green for hover effect */
+    text-decoration: underline; /* Optional: Add underline on hover */
+}
+
+/* Style for visited links */
+#links a:visited {
+    color: #004d33; /* Darker green for visited links */
+}
+
+/* Style for active links */
+#links a:active {
+    color: #003d26; /* Even darker green while the link is being clicked */
+}
+
+
+
